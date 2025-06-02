@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 
 const FloatingChatInput = () => {
@@ -15,7 +15,7 @@ const FloatingChatInput = () => {
   };
 
   // Show/hide based on scroll position
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
