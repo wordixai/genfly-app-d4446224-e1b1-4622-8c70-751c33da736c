@@ -14,7 +14,7 @@ const Index = () => {
       <Header />
       
       <main className="relative z-[1] outline-none">
-        <article className="flex flex-col gap-2xl md:gap-3xl">
+        <article className="flex flex-col gap-16 md:gap-24">
           <HeroSection />
           <FeaturedSection />
           <NewsSection />

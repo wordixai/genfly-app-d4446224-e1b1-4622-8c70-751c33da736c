@@ -83,7 +83,7 @@ const FeaturedSection = () => {
 
         {/* Side articles */}
         <div className="px-sm md:px-md lg:px-0 lg:grid-cols-1 gap-y-xl gap-x-2xs col-span-1 grid grid-cols-1 md:grid-cols-3">
-          {/* Article 1 */}
+          {/* Article 1 - Codex */}
           <div className="lg:pb-[var(--pb)] relative">
             <div className="group relative">
               <div className="bg-primary-12 absolute left-0 top-0 w-full rounded-md aspect-[1/1]"></div>
@@ -122,21 +122,12 @@ const FeaturedSection = () => {
             </div>
           </div>
 
-          {/* Article 2 */}
+          {/* Article 2 - o3 and o4-mini */}
           <div className="lg:pb-[var(--pb)] relative">
             <div className="group relative">
               <div className="bg-primary-12 absolute left-0 top-0 w-full rounded-md aspect-[1/1]"></div>
               <div className="ease-curve-c duration-normal max-w-container-desktop relative mx-auto overflow-hidden transition-opacity rounded-md group-hover:[&_img]:scale-[1.025] group-hover:[&_video]:scale-[1.025]">
                 <div className="relative w-full aspect-[1/1]">
-                  <div className="relative h-full w-full overflow-hidden rounded-none aspect-[1/1] ease-curve-d duration-normal bg-transparent transition-[background]">
-                    <img
-                      alt="OpenAI o3 and o4-mini"
-                      loading="lazy"
-                      decoding="async"
-                      className="object-cover object-center absolute inset-0 w-full h-full"
-                      src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=800&fit=crop"
-                    />
-                  </div>
                   <div className="aspect-[1/1] min-h-full min-w-full overflow-hidden absolute left-0 top-0 h-full w-full object-cover">
                     <video autoPlay loop playsInline className="group pointer-events-none h-full w-full object-cover">
                       <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4" />
@@ -172,7 +163,7 @@ const FeaturedSection = () => {
             </div>
           </div>
 
-          {/* Article 3 */}
+          {/* Article 3 - Math Tutor */}
           <div className="lg:pb-[var(--pb)] relative">
             <div className="group relative">
               <div className="bg-primary-12 absolute left-0 top-0 w-full rounded-md aspect-[1/1]"></div>

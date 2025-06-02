@@ -84,7 +84,7 @@ const HeroSection = () => {
 
               <div className="absolute bottom-3 right-3 mt-auto flex justify-end">
                 <button
-                  className="bg-primary-100 text-secondary-100 disabled:bg-primary-4 disabled:text-primary-44 relative h-9 w-9 rounded-full p-0 transition-colors hover:opacity-70 disabled:hover:opacity-100"
+                  className="bg-primary-100 text-black disabled:bg-primary-4 disabled:text-primary-44 relative h-9 w-9 rounded-full p-0 transition-colors hover:opacity-70 disabled:hover:opacity-100"
                   type="submit"
                   disabled={!inputValue.trim()}
                   aria-label="Send prompt to ChatGPT"
@@ -125,7 +125,7 @@ const HeroSection = () => {
                 </a>
                 <button
                   type="button"
-                  className="transition duration-short ease-curve-a rounded-[2.5rem] text-nowrap min-h-md flex items-center justify-center gap-[0.3em] text-cta focus:outline focus:outline-1 outline-offset-2 h-[2.5rem] border-primary-12 hover:bg-primary-4 whitespace-nowrap text-cta flex h-[40px] items-center rounded-full border border-solid bg-transparent px-3 leading-none transition text-primary-60 light:shadow-splash-chatpgpt-links rounded-full text-primary-100 hover:text-primary-60 disabled:text-primary-44 focus:outline-none focus-visible:outline-primary-44 px-0"
+                  className="border-primary-12 hover:bg-primary-4 whitespace-nowrap text-cta flex h-[40px] items-center rounded-full border border-solid bg-transparent px-3 leading-none transition text-primary-60 light:shadow-splash-chatpgpt-links"
                 >
                   <span className="relative">More</span>
                 </button>
